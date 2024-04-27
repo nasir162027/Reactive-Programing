@@ -10,5 +10,5 @@ public interface BookService {
     Mono<Book> getBookById(int bookId);
     Mono<Book> update(Book book,int bookId);
     Mono<Void> delete(int bookId);
-    Flux<Book> search (String query);
+    Flux<Book> searchBooks (String query);
 }

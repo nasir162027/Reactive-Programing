@@ -56,6 +56,6 @@ public class BookController {
             @RequestParam("query") String query
     ) {
         System.out.println(query);
-        return this.bookService.search(query);
+        return this.bookService.searchBooks(query);
     }
 }
